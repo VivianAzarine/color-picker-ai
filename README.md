@@ -66,7 +66,7 @@ K-Means adalah algoritma *unsupervised learning* yang mengelompokkan data ke dal
 
 1. **Clone repository**
 ```bash
-   git clone https://github.com/USERNAME/color-picker-ai.git
+   git clone https://github.com/VivianAzarine/color-picker-ai.git
    cd color-picker-ai
 ```
 
