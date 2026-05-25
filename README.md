@@ -1,4 +1,4 @@
-# 🎨 Color Picker AI
+# Color Picker AI
 
 Website berbasis AI yang mengekstrak warna dominan dari sebuah gambar menggunakan algoritma **K-Means Clustering**. Dibangun dengan Python dan Streamlit.
 
@@ -12,13 +12,11 @@ Color Picker AI adalah aplikasi web yang menerima input berupa gambar (JPG/JPEG/
 
 ## ✨ Fitur
 
-- 📤 Upload gambar (JPG, JPEG, PNG)
-- 🎨 Ekstraksi 3–10 warna dominan (jumlah dapat diatur via slider)
-- 🔢 Tampilan kode warna dalam format **HEX** dan **RGB**
-- 🏷️ **Nama warna** otomatis (e.g. Coral, Lavender, Slategray)
-- 📊 Persentase tiap warna terhadap keseluruhan gambar
-- 🌈 UI dengan tema light pastel + animasi gradient & particles
-- 🎴 Kartu warna dengan efek 3D tilt & hover
+- Upload gambar (JPG, JPEG, PNG)
+- Ekstraksi 3–10 warna dominan (jumlah dapat diatur via slider)
+- Tampilan kode warna dalam format **HEX** dan **RGB**
+- **Nama warna** otomatis (e.g. Coral, Lavender, Slategray)
+- Persentase tiap warna terhadap keseluruhan gambar
 
 ---
 
@@ -35,24 +33,6 @@ K-Means adalah algoritma *unsupervised learning* yang mengelompokkan data ke dal
    - Centroid diperbarui menjadi rata-rata pixel dalam cluster.
 4. **Konvergensi**: Iterasi berhenti ketika centroid tidak berubah signifikan.
 5. **Hasil**: K centroid akhir = K warna dominan.
-
-### Mengapa K-Means?
-
-- ✅ Sederhana, cepat, dan efektif untuk data warna RGB
-- ✅ Tidak memerlukan data label (cocok untuk gambar sembarang)
-- ✅ Hasil yang konsisten dengan `random_state` yang sama
-
----
-
-## 🛠️ Teknologi
-
-| Komponen | Library | Fungsi |
-|----------|---------|--------|
-| Framework Web | Streamlit | Membuat UI website |
-| Pengolahan Gambar | Pillow (PIL) | Baca & resize gambar |
-| Komputasi Array | NumPy | Manipulasi pixel sebagai array |
-| Machine Learning | scikit-learn | Implementasi K-Means |
-| Penamaan Warna | webcolors | Konversi RGB ke nama CSS terdekat |
 
 ---
 
@@ -107,24 +87,3 @@ color-picker-ai/
 ├── README.md           # Dokumentasi
 └── .gitignore          # File yang diabaikan Git
 ---
-
-## 📖 Cara Menggunakan
-
-1. Buka website
-2. Atur jumlah warna dominan via slider (default: 5, range: 3–10)
-3. Upload gambar dari komputer (drag & drop atau klik area upload)
-4. Tunggu beberapa detik — sistem akan memproses dengan K-Means
-5. Lihat hasil: kartu warna dengan nama, HEX, RGB, dan persentase
-
----
-
-## 👤 Penulis
-
-**Vivian Azarine**  
-Praktikum Artificial Intelligence — Semester 4
-
----
-
-## 📄 Lisensi
-
-Project ini dibuat untuk keperluan akademik (tugas praktikum).
