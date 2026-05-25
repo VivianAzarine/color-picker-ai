@@ -95,7 +95,7 @@ K-Means adalah algoritma *unsupervised learning* yang mengelompokkan data ke dal
 
 Aplikasi sudah di-deploy dan dapat diakses melalui:
 
-🔗 **[LINK_AKAN_DIISI_SETELAH_DEPLOY]**
+🔗 **https://color-picker240014.streamlit.app/**
 
 ---
 
